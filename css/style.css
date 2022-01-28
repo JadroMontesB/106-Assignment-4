@@ -1,0 +1,120 @@
+/* Aside, Main & Section Part */
+
+main{
+
+    display: flex;
+    min-height:calc(100vh );
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/big.jpg");
+}
+
+aside{
+
+    flex: 1;
+    padding: 10px 20px;
+
+    background: #FF77F7;
+    background: -moz-linear-gradient(45deg, #FF77F7 0%, #7B3986 38%, #176980 100%);
+    background: -webkit-linear-gradient(45deg, #FF77F7 0%, #7B3986 38%, #176980 100%);
+    background: linear-gradient(45deg, #FF77F7 0%, #7B3986 38%, #176980 100%);
+}
+
+section{
+
+    flex: 2;
+}
+
+
+/* Style Page */
+
+.form{
+
+    color:azure;
+    text-shadow: 2px 2px darkcyan;
+    font-size: 23px;
+}
+
+.form input{
+
+    border-width: 2px;
+    border-style: inset;
+    border-color:darkcyan
+}
+
+.form textarea{
+
+    border-width: 2px;
+    border-style: inset;
+    border-color:darkcyan
+}
+
+/* Icon */
+
+.iImportant{
+
+    font-size: 32px;
+    color: azure;
+    cursor: pointer;
+}
+
+.iImportant.fas{
+
+    color: darkcyan;
+    text-shadow: 1px 1px azure;
+}
+
+/* Task Part */
+
+.task{
+
+    display: flex;
+    margin-top: 30px;
+
+
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+}
+
+.h5-title{
+
+    color: azure;
+    text-shadow: 3px 0 15px rgba(28, 41, 216, 0.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.task .task-title {
+
+    flex: 1;
+
+}
+
+.task .task-middle{
+
+    margin-left: 80px;
+    flex: 2;
+
+}
+
+/* Other */
+
+html{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+    color: azure;
+    text-shadow: 2px 2px darkcyan
+}
+
+h3{
+
+    color:azure;
+    text-shadow: 2px 2px darkcyan;
+    text-align: center;
+}
+

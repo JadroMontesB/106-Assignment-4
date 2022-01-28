@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Styles -->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    
+
+    <main>
+
+        <section class="img-section">
+
+            <h1> Calendary 2022 📅</h1>
+
+            <button id="btnToggleDetails" class="btn btn-sm btn-info"> Hide / Show Details </button>
+            <button id="btnDelete" class="btn btn-sm btn-danger"> Delete </button>
+
+            <div class="task-container">
+
+                
+
+            </div>
+
+        </section>
+
+        <aside>
+
+            <h3>Task information </h3>
+
+            <div class="form">
+
+                <!-- Icon -->
+                <div class="icon-container">
+
+                    <i class="iImportant fa-star far"></i>
+
+                </div>
+
+                <!-- Tittle -->
+                <div>
+                    
+                    <label class="form-label">Title</label>
+                    <input id="txtTitle" class="form-control" type="text">
+
+                </div>
+
+                <!-- Date  -->
+                <div>
+
+                    <label class="form-label">DueDate</label>
+                    <input id="txtdueDate" class="form-control" type="datetime-local">
+
+                </div>
+
+                <!-- Location -->
+                <div>
+
+                    <label class="form-label">Location</label>
+                    <input id="txtLocation" class="form-control" type="text">
+
+                </div>
+
+                <!-- Description -->
+                <div>
+
+                    <label class="form-label">Description</label>
+                    <textarea id="txtDes" class="form-control" rows="3" type="text"></textarea>
+
+                </div>
+
+                <!-- Participats -->
+                <div>
+
+                    <label class="form-label">Participants</label>
+                    <input id="txtPar" class="form-control" type="text">
+
+                </div>
+
+                <!-- Color -->
+                <div>
+
+                    <label class="form-label">Color</label>
+                    <input id="txtColor" class="form-control" type="color">
+
+                </div>
+
+                <!-- Button -->
+                <div>
+
+                    <button id="btnSave" class="btn btn-sm btn-primary">Save Task</button>
+
+                </div>
+
+
+
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- Scripts -->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/task.js"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/test.js"></script>
+
+</body>
+</html>
